@@ -4,3 +4,4 @@
 node_modules
 typings
 !systemjs.config.js
+/nbproject/private/

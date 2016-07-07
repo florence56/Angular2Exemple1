@@ -1,0 +1,15 @@
+<div>
+    <h1>{{titre}}</h1>
+
+    <div *ngIf="enrArticle">
+       
+        <div class="form-group">
+            <label for='desc'>description :</label>
+            <input type="number" class="form-control" placeholder="Obligatoire"
+                 [(ngModel)]="enrArticle.desc">
+        </div>
+       
+         
+     
+    </div>
+</div>

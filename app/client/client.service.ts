@@ -8,8 +8,8 @@ export class ClientService {
     constructor() { }
 
     public getClients() {
-        //return (CLIENTS);
-        return Promise.resolve(CLIENTS);
+        return (CLIENTS);
+        //return Promise.resolve(CLIENTS);
     }
 
     public getClient(id : number) {
